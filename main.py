@@ -7,4 +7,4 @@ def hello_world():
     return 'Hello,Bu 1650700964'
 
 if name == 'main':
-    app.run(debug=True,port=8000)
+    app.run(host="0.0.0.0", port=8000)
